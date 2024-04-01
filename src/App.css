@@ -130,6 +130,7 @@ img:hover{
     align-items: center;
     justify-content: center;
     margin-left: 25px;
+    height: 10px;
   }
 
   .movie-date {
