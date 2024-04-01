@@ -36,6 +36,7 @@ const App = () => {
         <div className='foot'>
         <h3 className='title'>Movies Mania</h3>
         <p>copyright @2024</p>
+        <p>MUZALPRA</p>
         </div>
       </div>
     )

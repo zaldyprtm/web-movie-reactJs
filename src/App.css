@@ -61,13 +61,17 @@ input::placeholder {
 
 img{
   height: 500px;
+  border: 2px solid rgba(1, 159, 244, 0.842);
   border-radius: 30px;
+  border-style: dotted;
 }
 
 img:hover{
   image-orientation: flip;
 }
-
+.movie-image:hover{
+  transform: scale(300px);
+  }
 
 .movie-date{
   font-style: italic;
@@ -99,6 +103,8 @@ img:hover{
 .footer .foot .title{
   padding-top: 15px;
   color: black;
+
+
 }
 
 @media only screen and (max-width: 600px) {
