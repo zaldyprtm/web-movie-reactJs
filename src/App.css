@@ -9,6 +9,10 @@ input::placeholder {
   outline-color: skyblue;
 }
 
+.mov-text {
+  text-align: center;
+}
+
 .movie-container{
   width: 100%;
   background-color: antiquewhite;
@@ -34,7 +38,11 @@ input::placeholder {
   margin-bottom: 32px;
   padding: 16px;
   font-weight: bold;
-  width: 375px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .movie-title{
@@ -75,12 +83,14 @@ img:hover{
 }
 
 .footer {
-  
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
   margin-top: 40px;
 }
 
 .foot {
-  
+  text-align: center;
   background-color: brown;
   border-radius: 20px;
   height: 100px;
@@ -142,6 +152,7 @@ img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+
     margin-bottom: 20px;
     height: 100px;
   }
@@ -161,5 +172,6 @@ img:hover{
     margin-bottom: 10px;
     width: 200px;
     margin-bottom: 20px;
+    text-align: center;
   }
 }
