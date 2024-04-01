@@ -1,0 +1,165 @@
+
+
+h1{
+  font-weight: bolder;
+}
+
+input::placeholder {
+  color: aqua;
+  outline-color: skyblue;
+}
+
+.movie-container{
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  border: 1px solid black;
+  
+}
+
+.movie-wrapper{
+  width: 500px;
+  color: black;
+}
+
+.movie-search {
+  height: 38px;
+  font-size: 24px;
+  border-radius: 15px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+  width: 375px;
+}
+
+.movie-title{
+  height: 60px;
+  margin-top: 26px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.movie-title:hover {
+  color: cadetblue;
+  transition: ease-in-out;
+  transition-duration: 400;
+  transform: scale3d(1);
+}
+
+img{
+  height: 500px;
+  border-radius: 30px;
+}
+
+img:hover{
+  image-orientation: flip;
+}
+
+
+.movie-date{
+  font-style: italic;
+  font-weight: 400;
+}
+
+.movie-rate{
+  color: crimson;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.footer {
+  
+  margin-top: 40px;
+}
+
+.foot {
+  
+  background-color: brown;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.footer .foot .title{
+  padding-top: 15px;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+
+  }
+
+  .movie-container {
+    background-color: rgb(220, 209, 189);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movie-wrapper {
+    width: 85%;
+  }
+
+  .movie-title {
+    text-align: center;
+  }
+
+  .movie-search{
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+  }
+
+  .movie-date {
+    text-align: center;
+  }
+
+  .movie-rate {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .mov-text {
+    font-size: 30px;
+    color: rgb(16, 144, 148);
+    
+    text-align: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100px;
+  }
+
+  .footer .foot h3{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .footer .foot p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .foot {
+    margin-bottom: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
